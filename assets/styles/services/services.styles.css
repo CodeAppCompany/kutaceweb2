@@ -1,0 +1,17 @@
+.services-card-container{
+    border: 1px solid #dfdfdf;
+}
+
+.services-card-container img{
+    width: 100%;
+    height: 250px;
+}
+
+.services-card-container a{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.services-section .row{
+    margin-top: 45px;
+}

@@ -1,0 +1,45 @@
+.footers-container{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    background-color: #254261;
+    margin-top: 80px;
+}
+
+.footers-logo-container{
+    width: 77px;
+    height: 77px;
+    padding-left: 7px;
+    padding-top: 9px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.footers-logo{
+    height: 62px;
+}
+
+.footers-logo-margin{
+	margin-bottom: 25px;
+}
+
+.footers-title{
+    font-size: 125%;
+}
+
+.footers-porivacy{
+	color: #bfe4ff !important
+}
+
+.footers-hr{
+	background-color: #687487;
+}
+
+.footers-company-slgn{
+    color: #bbbbbb !important;
+}
+
+.footer-sb-expla{
+    color: #c1c1c1 !important;
+    font-size: 86% !important;
+}

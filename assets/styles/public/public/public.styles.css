@@ -1,0 +1,486 @@
+p{
+	font-family: 'Inter', sans-serif;
+}
+
+.center{
+	text-align: center !important;
+}
+
+.hide{
+	display: none;
+}
+
+.not-opacity{
+  opacity: 0;
+}
+
+.relative{
+	position: relative !important;
+}
+
+.absolute{
+	position: absolute !important;
+}
+
+.fixed{
+	position: fixed !important;
+}
+
+.not-margin{
+	margin: 0px !important;
+}
+
+.not-padding{
+	padding: 0px !important;
+}
+
+.z-index-01{
+	z-index: 99999999 !important;
+}
+
+.pointer{
+	cursor: pointer !important;
+}
+
+.public-top-separation-sb1{
+  background-color: #bbb460;
+  width: 125px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  height: 3px;
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border: 0px solid #000000;
+}
+
+.public-top-separation-sb2{
+  background-color: #bbb460;
+  width: 15px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  height: 3px;
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border: 0px solid #000000;
+}
+
+.public-top-separation-sb3{
+  background-color: #bbb460;
+  width: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  height: 3px;
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border: 0px solid #000000;
+}
+
+.public-separation-body{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.public-separation-body-padding{
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.public-section-subtitle{
+  color: #606060;
+}
+
+.section-margin-bottom{
+  margin-bottom: 100px;
+}
+
+.public-section-title{
+  font-size: 120%;
+  font-weight: 600;
+}
+
+.public-top-separation-sb1{
+  background-color: #bbb460;
+  width: 125px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  height: 3px;
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border: 0px solid #000000;
+}
+
+.public-top-separation-sb2{
+  background-color: #bbb460;
+  width: 15px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  height: 3px;
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border: 0px solid #000000;
+}
+
+.public-top-separation-sb3{
+  background-color: #bbb460;
+  width: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  height: 3px;
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border: 0px solid #000000;
+}
+
+.public-top-separation-blue{
+  background-color: #1d365f !important;
+}
+
+.public-separation-body{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.public-section-subtitle{
+  color: #606060;
+}
+
+.white-text{
+  color: white !important;
+}
+
+.text-white{
+  color: white !important;
+}
+
+.text-left{
+  text-align: left !important;
+}
+
+.black-text{
+  color: black !important;
+}
+
+.public-section-title-white{
+  font-size: 145%;
+  /* font-weight: 600; */
+  color: white;
+}
+
+.zoom-zoom{
+  transition: transform .3s;
+}
+
+.zoom-zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: transform .3s;
+}
+
+.zoom-zoom-little{
+  transition: transform .3s;
+}
+
+.zoom-zoom-little:hover {
+    -ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03);
+    transition: transform .3s;
+}
+
+.zoom{
+  transition: transform .3s;
+}
+
+.item-zoom{
+    transition: transform .3s;
+}
+
+.zoom:hover .item-zoom{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: transform .3s;
+}
+
+.hide{
+  display: none !important;
+}
+
+.show{
+  display: block !important;
+}
+
+.hide_element{
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.1s, opacity 0.1s linear;
+}
+
+.show_element{
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.1s linear;
+}
+
+.black-color{
+  color: black !important;
+}
+
+.color-black{
+  color: black !important;
+}
+
+.white-background{
+  background-color: white !important;
+}
+
+.section-padding-bottom{
+  padding-bottom: 80px;
+}
+
+.section-title{
+  border: 1px solid #1d637f73;
+  /* color: white; */
+  padding: 8px 16px;
+  border-radius: 8px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+}
+
+.section-title-white{
+  border: 1px solid #ffffff73;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+}
+
+.public-section-container{
+  margin-bottom: 35px;
+  margin-top: 25px;
+}
+
+.public-additional-section{
+  margin-top: 60px !important;
+}
+
+.justify{
+  text-align: justify !important;
+}
+
+.z-1{
+  z-index: 1;
+}
+
+.z-9{
+  z-index: 999999999999;
+}
+
+.loading-background{
+  background-color: white;
+}
+
+.icon-size{
+  width: 22px;
+  height: 22px;
+}
+
+.icon-margin{
+  margin-left: 10px;
+}
+
+/*_______________________GLOBAL MESSAGES___________________________*/
+.dialogs-modal {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px);
+  border: none;
+  padding: 0;
+  animation: slideFadeIn 0.3s ease-out;
+  -webkit-border-radius: 15px !important;
+  -moz-border-radius: 15px !important;
+  border-radius: 15px !important;
+}
+
+.dialog-txt-mesage{
+  font-size: 15px;
+}
+
+.dialogs-btn-light {
+  background-color: #f0f0f0 !important;
+  border: none !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  border-radius: 10px !important;
+}
+
+.margin-rigth-btn{
+  margin-right: 15px !important;
+}
+
+.dialogs-btn-primary {
+  background-color: #007aff !important;
+  border: none !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  border-radius: 10px !important;
+}
+
+@keyframes slideFadeIn {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/*_______________________GLOBAL MESSAGES___________________________*/
+
+
+/*---------------------LOADING-ANNIMATION-------------------*/
+/* Contenedor centrado */
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Spinner */
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top-color: #3b82f6;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  animation: spin 1s linear infinite;
+}
+
+.spinner-gray{
+  border-top-color: #8d8d8d !important;
+}
+
+.spinner-blue{
+  border-top-color: #3b82f6 !important;
+}
+
+.whats-container{
+  position: fixed;
+  z-index: 999;
+  right: 40px;
+  bottom: 40px;
+}
+
+.whatsapp-button{
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(8px);
+  padding: 10px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  float: right;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: padding 0.4s ease, width 0.4s ease, height 0.4s ease;
+}
+
+.whatsapp-button-icon{
+  height: 45px;
+}
+
+.watsapp-button-messages{
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  margin-bottom: 8px;
+  text-align: right;
+  width: fit-content;
+  margin-left: auto;
+}
+
+.whats-text{
+  margin-right: 20px !important;
+  margin-bottom: 0px !important;
+
+  opacity: 1;
+  max-width: 500px;
+  overflow: hidden;            
+  white-space: nowrap;
+  transition: 
+      opacity 0.35s ease,
+      max-width 0.35s ease,
+      transform 0.35s ease;
+}
+
+.whats-text.hidden {
+  opacity: 0;
+  max-width: 0;
+  transform: translateX(-10px);
+  margin: 0px !important;
+}
+
+.messages-inner {
+  display: flex;
+  flex-direction: column;
+  transform: translateY(150px);
+  transition: transform 0.6s ease; 
+}
+
+.whatsapp-button.compact {
+    padding: 10px;
+    gap: 0;
+}
+
+.messages-inner > div {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.messages-inner > div.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.messages-wrapper {
+  height: 125px; 
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+
+.messages-wrapper.hide-messages {
+    opacity: 0;
+    transform: translateY(30px);
+    pointer-events: none;
+}
+
+/* Animación giratoria */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+/*---------------------LOADING-ANNIMATION-------------------*/
+
+.color-title{
+  color: #1d4c74;
+}
+
+.color-sub-title{
+  color: #d1d1d1;
+}

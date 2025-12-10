@@ -1,0 +1,142 @@
+.messageAbsolute{
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  background-color: white;
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border: 0px solid #000000;
+  float: right;
+  width: 350px;
+  margin-top: 10px;
+}
+
+.notificationFixed_topRigth{
+  position: fixed;
+  z-index: 999999;
+  float: right;
+  right: 0;
+  margin-right: 10px;
+  display: grid;
+}
+
+.notificationFixed_topLeft{
+    position: fixed;
+    z-index: 999999;
+    float: left;
+    left: 0;
+    margin-left: 10px;
+    display: grid;
+}
+
+.notificationFixed_bottomLeft{
+    position: fixed;
+    z-index: 999999;
+    float: left;
+    bottom: 0;
+    margin-bottom: 10px;
+    display: grid;
+    margin-left: 10px;
+}
+
+.notificationFixed_bottomRigth{
+    position: fixed;
+    z-index: 999999;
+    float: right;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10px;
+    display: grid;
+    margin-right: 10px;
+}
+
+.headMessage{
+  padding-top: 10;
+}
+
+.infoClass{
+  background-color: #007bff  !important;
+}
+
+.warningClass{
+  background-color: #aeb335 !important;
+}
+
+.errorClass{
+  background-color: #8e0a0a !important;
+}
+
+.successClass{
+  background-color: #137522;
+}
+
+.notificationStatus{
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border: 0px solid #000000;
+}
+
+.notificationSpinner{
+  height: 20px !important;
+  width: 20px !important;
+  border: 1px solid currentColor !important;
+  border-right-color: transparent !important;
+}
+
+.titleNotification{
+  margin-left: 25px !important;
+  font-size: 80%;
+  margin-bottom: 5px !important;
+  margin-right: 25px !important;
+  font-weight: 600;
+}
+
+.closeMessageNotification{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.hrNotification{
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.notificationMessage{
+    font-size: 80%;
+    margin-bottom: 5px;
+    margin-top: 10;
+    cursor: default;
+    color: black;
+    max-height: 15px;
+    height: 15px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.notificationHover{
+  /*height: 80px;
+  max-height: 80px;*/
+  transition: max-height 0.1s ease-out;
+}
+
+.notificationHover:hover{
+  
+  max-height: 86% !important;
+  transition: max-height 0.1s ease-in !important;
+}
+
+.notificationHover:hover .notificationMessage{
+  max-height: 100% !important;
+  height: 100% !important;
+  transition: max-height 0.1s ease-in !important;
+  white-space: normal;
+}
+
+#closeMessageNotification{
+    color: #4a6a8d;
+}

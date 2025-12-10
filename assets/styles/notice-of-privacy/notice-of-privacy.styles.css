@@ -1,0 +1,51 @@
+.logo-privacy{
+	height: 250px;
+	margin-bottom: 10px;
+}
+
+.cover-title-privacy{
+	font-size: 250% !important;
+	padding-top: 30px;
+	color: black;
+}
+
+.notice-container{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.notice-container p{
+	font-size: 110%;
+	text-align: justify;
+}
+
+.footer-logo{
+	height: 100px;
+    margin-bottom: 20px;
+}
+
+.notice-notes{
+	color: #0064ff;
+}
+
+.notice-link{
+	    color: #278d93;
+}
+
+@media only screen and (max-width: 768px) {
+	.logo-privacy{
+		height: 200px !important;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	.cover-title-privacy{
+		font-size: 158% !important;
+	}
+
+	.logo-privacy{
+		height: 125px !important;
+	}
+}
