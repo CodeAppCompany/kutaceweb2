@@ -1,0 +1,9 @@
+.routes-background{
+    background-image: url(../../images/routes/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.routes-background-color{
+    background-color: #093677ba;
+}
