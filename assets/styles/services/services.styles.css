@@ -15,3 +15,30 @@
 .services-section .row{
     margin-top: 45px;
 }
+
+.services-btns{
+    position: absolute;
+    bottom: 0;
+}
+
+.services-card-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.services-card-container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.services-card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1rem;
+}
+
+.services-card-body .btn {
+    margin-top: auto;
+}

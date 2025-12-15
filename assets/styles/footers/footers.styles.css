@@ -7,12 +7,10 @@
 }
 
 .footers-logo-container{
-    width: 77px;
+    width: 231px;
     height: 77px;
     padding-left: 7px;
     padding-top: 9px;
-    border-radius: 100%;
-    background-color: white;
 }
 
 .footers-logo{

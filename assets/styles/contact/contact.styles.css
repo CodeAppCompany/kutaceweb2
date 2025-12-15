@@ -1,0 +1,29 @@
+.contact-logo{
+    height: 118px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.contact-name{
+    color: #1d4c74;
+    font-weight: 600;
+    font-size: 119%;
+}
+
+.contact-sbname{
+    color: #5f5f5f;
+}
+
+.contact-social-icon{
+    height: 45px;
+}
+
+.contact-social-section{
+    margin-right: 15px;
+}
+
+.contact-social-txt{
+    margin-top: 20px;
+    color: #5c5c5c;
+    margin-bottom: 5px;
+}
