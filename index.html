@@ -19,14 +19,14 @@
 		<title>Kut & Ace - Oficial</title> <!-- Title Page-->
         <meta 
             name="description"
-            content=""    
+            content="Empresa mexicana de transporte terrestre y fletes foráneos con cobertura nacional. Envíos seguros, puntuales y soluciones logísticas profesionales. Transporte y Fletes Foráneos en México. Servicio Profesional de Transporte Terrestre"    
         ></meta>
 
 		<link 
 			rel="icon" 
 			type="image/png" 
 			sizes="96x96" 
-			href="./assets/images/icon-letters.png?v=1"
+			href="./assets/images/icon-letters.png?v=2"
 		> <!--Icon page-->
 
 		<!--bootstrap styles-->
@@ -67,47 +67,47 @@
 
 		<!--personal styles-->
 		<link 
-			href="./assets/styles/public/public/public.styles.css?v=1" 
+			href="./assets/styles/public/public/public.styles.css?v=2" 
 			rel="stylesheet" 
 			media="all"
 		>
 		<link 
-			href="./assets/styles/menu/menu.styles.css?v=1" 
+			href="./assets/styles/menu/menu.styles.css?v=2" 
 			rel="stylesheet" 
 			media="all"
 		>
 		<link 
-			href="./assets/styles/home/home.styles.css?v=1" 
+			href="./assets/styles/home/home.styles.css?v=2" 
 			rel="stylesheet" 
 			media="all"
 		>
 		<link 
-			href="./assets/styles/us/us.styles.css?v=1" 
+			href="./assets/styles/us/us.styles.css?v=2" 
 			rel="stylesheet" 
 			media="all"
 		>
 		<link 
-            href="./assets/styles/services/services.styles.css?v=1" 
+            href="./assets/styles/services/services.styles.css?v=2" 
             rel="stylesheet" 
             media="all"
 		>
 		<link 
-			href="./assets/styles/contact/contact.styles.css?v=1" 
+			href="./assets/styles/contact/contact.styles.css?v=2" 
 			rel="stylesheet" 
 			media="all"
 		>
 		<link 
-			href="./assets/styles/routes/routes.styles.css?v=1" 
+			href="./assets/styles/routes/routes.styles.css?v=2" 
 			rel="stylesheet" 
 			media="all"
 		>
 		<link 
-			href="./assets/styles/footers/footers.styles.css?v=1" 
+			href="./assets/styles/footers/footers.styles.css?v=2" 
 			rel="stylesheet" 
 			media="all"
 		>
 		<link 
-			href="./assets/styles/public/notifications/notifications.styles.css?v=1" 
+			href="./assets/styles/public/notifications/notifications.styles.css?v=2" 
 			rel="stylesheet" 
 			media="all"
 		>
@@ -126,11 +126,38 @@
 	<!--body container-->
 	<body class="body-background relative">
         
+		<!-- loadgin annimation -->
+		<div 
+			class="fixed z-9 w-100 h-100"
+			id="loading-page"
+		>
+			<div class="d-flex justify-content-center align-items-center h-100 loading-background">
+				<div class="spinner-border text-primary" role="status">
+					<span class="sr-only">Loading...</span>
+				</div>
+			</div>
+		</div>
+
+		<!-- WHATSAPP -->
+		<div 
+			class="whats-container pointer"
+			title="Contactanos por Whatsapp"
+		>    
+            <div class="whatsapp-button">
+                <div class="d-flex justify-content-start align-items-center">
+                    <img 
+                        src="./assets/images/whats.png?v=2" 
+                        class="whatsapp-button-icon"
+                    >
+                </div>
+            </div>
+        </div>
+
 		<!-- HOME -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-white container">
 			<a class="navbar-brand" href="#">
 				<img 
-					src="./assets/images/logo_wot_bg.png?v=1" 
+					src="./assets/images/logo_wot_bg.png?v=2" 
 					height="60"
 				>
 			</a>
@@ -141,8 +168,10 @@
 
 			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-					<li class="nav-item dropdown">
+					<!--
+					<li class="nav-item" onclick="system.objects.scroll('section-home', 0);"><a class="nav-link" href="#">Inicio</a></li>
+					-->
+					<li class="nav-item dropdown nav-bar-margin">
 						<a class="nav-link dropdown-toggle" href="#" id="servicios" data-toggle="dropdown">
 							Servicios
 						</a>
@@ -150,11 +179,11 @@
 							<a class="dropdown-item" href="#">Transporte Terrestre</a>
 							<a class="dropdown-item" href="#">Servicio de Almacen</a>
 							<a class="dropdown-item" href="#">Servicios y Maniobras</a>
-							<a class="dropdown-item" href="#">Mostrar más Detalles ...</a>
+							<a class="dropdown-item" href="#" onclick="system.objects.scroll('section-services', 0);">Mostrar más Detalles ...</a>
 						</div>
 					</li>
 
-					<li class="nav-item dropdown">
+					<li class="nav-item dropdown nav-bar-margin">
 						<a class="nav-link dropdown-toggle" href="#" id="servicios" data-toggle="dropdown">
 							Destinos
 						</a>
@@ -164,18 +193,18 @@
 							<a class="dropdown-item" href="#">Irapuato</a>
 							<a class="dropdown-item" href="#">Celaya</a>
 							<a class="dropdown-item" href="#">Atlacamulco</a>
-							<a class="dropdown-item" href="#">Ver todos los destinos ...</a>
+							<a class="dropdown-item" href="#" onclick="system.objects.scroll('section-routes', 0);">Ver todos los destinos ...</a>
 						</div>
 					</li>
-					<li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+					<li class="nav-item" onclick="system.objects.scroll('section-us', 0);"><a class="nav-link" href="#">Nosotros</a></li>
 				</ul>
 
-				<a class="btn btn-contacto ml-3" href="#">Contacto</a>
+				<a class="btn btn-contacto ml-3" href="#" onclick="system.objects.scroll('section-contact', 0);">Contacto</a>
 			</div>
 		</nav>
 
 		<!-- HERO -->
-		<div class="hero-container">
+		<div class="hero-container" id="section-home">
 			<div class="slideshow">
 				<video class="slide" autoplay muted loop playsinline>
 					<source src="./assets/images/home/background.mp4" type="video/mp4">
@@ -195,15 +224,15 @@
 				</p>
 
 				<div class="hero-btn">
-					<a class="btn btn-primary" href="#">Solicitar Cotización</a>
-					<a class="btn btn-outline-light" href="#">Obtener más información</a>
+					<a class="btn btn-primary" href="#" onclick="system.objects.scroll('section-contact', 0);">Solicitar Cotización</a>
+					<a class="btn btn-outline-light" href="#" onclick="system.objects.scroll('section-contact', 0);">Obtener más información</a>
 				</div>
 			</div>
 			<div class="hero-right"></div>
 		</div>
 
 		<!-- SERVICES SECTION -->
-		<section class="services-section">
+		<section class="services-section" id="section-services">
 			<div class="container">
 				<h2>KUT & ACE Especialistas en Transporte & Logística - Cartera de Servicios</h2>
 
@@ -218,7 +247,7 @@
 					<div class="row">
 						<div class="col-4">
 							<div class="services-card-container h-100 relative">
-								<img src="./assets/images/services/img1.jpg?v=1">
+								<img src="./assets/images/services/img1.jpg?v=2">
 								<div class="container text-left services-card-body">
 									<h3>Transporte Foráneo y Local</h3>
 									<br>
@@ -232,7 +261,7 @@
 						</div>
 						<div class="col-4">
 							<div class="services-card-container h-100 relative">
-								<img src="./assets/images/services/img2.jpg?v=1">
+								<img src="./assets/images/services/img2.jpg?v=2">
 								<div class="container text-left services-card-body">
 									<h3>Exceso de Dimensiones y Peso</h3>
 									<br>
@@ -246,7 +275,7 @@
 						</div>
 						<div class="col-4">
 							<div class="services-card-container h-100 relative">
-								<img src="./assets/images/services/img3.jpg?v=1">
+								<img src="./assets/images/services/img3.jpg?v=2">
 								<div class="container text-left services-card-body">
 									<h3>Carga Especializada y de Proyectos</h3>
 									<br>
@@ -266,7 +295,7 @@
 					<div class="row">
 						<div class="col-4">
 							<div class="services-card-container h-100 relative">
-								<img src="./assets/images/services/img4.jpg?v=1">
+								<img src="./assets/images/services/img4.jpg?v=2">
 								<div class="container text-left services-card-body">
 									<h3>Servicio de Almacén Seguro</h3>
 									<br>
@@ -280,7 +309,7 @@
 						</div>
 						<div class="col-4">
 							<div class="services-card-container h-100 relative">
-								<img src="./assets/images/services/img5.jpg?v=1">
+								<img src="./assets/images/services/img5.jpg?v=2">
 								<div class="container text-left services-card-body">
 									<h3>Control y Vigilancia 24/7</h3>
 									<br>
@@ -300,7 +329,7 @@
 					<div class="row">
 						<div class="col-4">
 							<div class="services-card-container h-100 relative">
-								<img src="./assets/images/services/img6.jpg?v=1">
+								<img src="./assets/images/services/img6.jpg?v=2">
 								<div class="container text-left services-card-body">
 									<h3>Servicios y Maniobras Especializadas</h3>
 									<br>
@@ -314,7 +343,7 @@
 						</div>
 						<div class="col-4">
 							<div class="services-card-container h-100 relative">
-								<img src="./assets/images/services/img7.jpg?v=1">
+								<img src="./assets/images/services/img7.jpg?v=2">
 								<div class="container text-left services-card-body">
 									<h3>Certificación, Control y Cumplimiento</h3>
 									<br>
@@ -331,7 +360,7 @@
 		</section>
 
 		<!-- US SECTION -->
-		<section class="stats-section text-center py-5">
+		<section class="stats-section text-center py-5" id="section-us">
 			<div class="container">
 				<!-- about us -->
 				<div class="row">
@@ -349,11 +378,11 @@
 					<div class="col-5">
 						<div class="contenedor">
 							<div class="columna-grande relative">
-								<img src="./assets/images/us/imagethre.jpg?v=1" alt="Camiones" class="us-vmaedia w-100">
+								<img src="./assets/images/us/imagethre.jpg?v=2" alt="Camiones" class="us-vmaedia w-100">
 							</div>
 							<div class="columna-pequena">
-								<img src="./assets/images/us/imagetwo.jpg?v=1" alt="Camiones" class="us-lt-image">
-								<img src="./assets/images/us/imageone.jpg?v=1" alt="Camiones" class="us-lt-image">
+								<img src="./assets/images/us/imagetwo.jpg?v=2" alt="Camiones" class="us-lt-image">
+								<img src="./assets/images/us/imageone.jpg?v=2" alt="Camiones" class="us-lt-image">
 							</div>
 						</div>
 					</div>
@@ -376,7 +405,7 @@
 					<!-- Imagen (toma dos filas y dos columnas) -->
 					<div class="stats-image relative">
 						<video class="us-vmedia" autoplay muted loop playsinline>
-							<source src="./assets/images/us/media-card.mp4?v=1" type="video/mp4">
+							<source src="./assets/images/us/media-card.mp4?v=2" type="video/mp4">
 						</video>
 					</div>
 
@@ -402,7 +431,7 @@
 		</section>
 
 		<!-- ROUTES -->
-		<section class="stats-section text-center relative routes-background">
+		<section class="stats-section text-center relative routes-background" id="section-routes">
 			<div class="routes-background-color py-5">
 				<div class="container">
 					<div class="row">
@@ -459,11 +488,11 @@
 							<div class="slide-routes-container relative">
 								<!--
 								<img
-									src="./assets/images/letters_truck_logo.png?v=1"
+									src="./assets/images/letters_truck_logo.png?v=2"
 								>
 								
 								<video class="slide-routes" autoplay muted loop playsinline>
-									<source src="./assets/images/routes/routesv.mp4?v=1" type="video/mp4">
+									<source src="./assets/images/routes/routesv.mp4?v=2" type="video/mp4">
 								</video>
 								-->
 							</div>
@@ -474,13 +503,13 @@
 		</section>
 
 		<!-- CONTACT -->
-		 <section class="stats-section text-center relative py-5">
+		<section class="stats-section text-center relative py-5" id="section-contact">
 			<div class="container py-5">
 				<div class="row">
 					<div class="col-6">
 						<h2 class="stats-title">Formulario de Contacto</h2>
 						<img
-							src="./assets/images/logo_wot_bg.png?v=1"
+							src="./assets/images/logo_wot_bg.png?v=2"
 							class="contact-logo"
 						>
 						<p>Te puedes comunicar con nosotros por teléfono, correo electrónico o visitarnos en nuestras instalaciones.</p>
@@ -526,19 +555,19 @@
 									<div class="d-flex flex-row">
 										<div class="contact-social-section">
 											<img
-												src="./assets/images/social-facebook.png?v=1"
+												src="./assets/images/social-facebook.png?v=2"
 												class="contact-social-icon"
 											>
 										</div>
 										<div class="contact-social-section">
 											<img
-												src="./assets/images/insta.png?v=1"
+												src="./assets/images/insta.png?v=2"
 												class="contact-social-icon"
 											>
 										</div>
 										<div class="contact-social-section">
 											<img
-												src="./assets/images/whatsapp.png?v=1"
+												src="./assets/images/whatsapp.png?v=2"
 												class="contact-social-icon"
 											>
 										</div>
@@ -565,7 +594,7 @@
 					<div class="d-flex align-items-end footers-logo-margin">
 						<div class="footers-logo-container">
 							<img 
-								src="./assets/images/logo_wot_bg-white.png?v=1"
+								src="./assets/images/logo_wot_bg-white.png?v=2"
 								class="footers-logo" 
 							>
 						</div>
@@ -610,15 +639,15 @@
 
 	<!--components-->
 	<script 
-		src="./components/system/system.component.js?v=1"
+		src="./components/system/system.component.js?v=2"
 	></script>
 	<script 
-		src="./components/home/home.component.js?v=1"
+		src="./components/home/home.component.js?v=2"
 	></script>
 	<script 
-		src="./components/public/menu/menu.component.js?v=1"
+		src="./components/public/menu/menu.component.js?v=2"
 	></script>
 	<script 
-		src="./components/services/services.component.js?v=1"
+		src="./components/services/services.component.js?v=2"
 	></script>
 </html>
