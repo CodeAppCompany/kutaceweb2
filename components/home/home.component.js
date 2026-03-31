@@ -16,8 +16,6 @@ $(document).ready(() => {
     ngOnInit();
 
     sendMail = async function(form){
-        console.log('sendMail');
-        console.log(form);
         try{
             //form validation
             if(!validation(form)){
