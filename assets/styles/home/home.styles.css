@@ -156,3 +156,27 @@
 .nav-bar-margin{
     margin-right: 15px;
 }
+
+@media (max-width: 425px){
+    .home-buttons-contact{
+        width: 100%;
+        margin-bottom: 15px;
+        margin-left: 0px !important;
+    }
+
+    .hero-container{
+        height: auto !important;
+    }
+}
+
+@media (max-width: 1024px){
+    .hero-left{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    .hero-container{
+        display: block !important;
+    }
+}

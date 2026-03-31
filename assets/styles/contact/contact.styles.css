@@ -27,3 +27,20 @@
     color: #5c5c5c;
     margin-bottom: 5px;
 }
+
+@media (max-width: 768px){
+    .contact-logo{
+        height: 97px;
+    }
+}
+
+@media (max-width: 425px){
+    .form-margin-t{
+        margin-top: 50px;
+    }
+}
+@media (max-width: 425px){
+    .contact-logo{
+        height: 75px;
+    }
+}

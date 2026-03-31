@@ -102,3 +102,21 @@
 .contenedor{
   display: flex;
 }
+
+.us-media-mobile{
+    display: none;
+}
+
+@media (max-width: 988px){
+    .us-media-computers{
+        display: none;
+    }
+    .us-media-mobile{
+        display: block;
+        object-fit: cover;
+        object-position: right;
+    }
+    .mt-4-mobile{
+        margin-top: 50px;
+    }
+}
