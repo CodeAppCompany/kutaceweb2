@@ -5,7 +5,6 @@
   function contactTemplate(
     $fullname, 
     $email, 
-    $phone, 
     $message
   ){
     return '
@@ -213,7 +212,7 @@
               <tr>
                 <td style="padding-right: 0px;padding-left: 0px;" align="center">
                   
-                  <img align="center" border="0" src="https://sictechnogroup.com/assets/public_images/cmf.jpeg" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 600px;" width="600"/>
+                  <img align="center" border="0" src="https://sictechnogroup.com/assets/public_images/kutace.png" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 600px;" width="600"/>
                   
                 </td>
               </tr>
@@ -263,16 +262,12 @@
                     <td>' . $email . '</td>
                   </tr>
                   <tr>
-                    <td>Número celular:</td>
-                    <td>' . $phone . '</td>
-                  </tr>
-                  <tr>
                     <td>Mensaje:</td>
                     <td>' . $message . '</td>
                   </tr>
                   <tr>
                     <td>Plataforma:</td>
-                    <td>CMF web site 1.0</td>
+                    <td>KutAce web site 2.0</td>
                   </tr>
                 </table>
               </div>
@@ -319,7 +314,7 @@
                   <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:georgia,palatino;" align="left">
                     
               <div style="line-height: 140%; text-align: center; word-wrap: break-word;">
-                <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 14px; line-height: 19.6px; font-family: Arial, Helvetica, sans-serif;">Platform CMF.</span></p>
+                <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 14px; line-height: 19.6px; font-family: Arial, Helvetica, sans-serif;">Platform KutAce.</span></p>
               </div>
 
                   </td>

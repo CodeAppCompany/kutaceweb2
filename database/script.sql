@@ -1,11 +1,10 @@
-create database cmf;
+create database kutaceweb;
 
 /*table to save emails sended*/
 create table emails(
 	_id int primary key not null auto_increment,
 	name varchar(550),
 	email varchar(450),
-	phone varchar(150),
 	message varchar(3500),
 	date datetime
 );

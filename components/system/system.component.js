@@ -1,6 +1,6 @@
 
 //Includes
-var V_Global = 'http://localhost/cmf/';//Global server connection
+var V_Global = 'http://localhost/kutaceweb2/';//Global server connection
 //var V_Global = 'http://192.168.1.123/slg/';//Global server connection
 var V_Domain = '';//Global cookies domain
 var notificationsKey = [];
@@ -95,7 +95,7 @@ var system = {
                 confirm: {
                     active: true,
                     _function: () => {
-                        const phone = "3141036185"; // Número completo con código de país
+                        const phone = "3141742944"; // Número completo con código de país
                         const message = "Hola quiero más información";
                         const url = `https://api.whatsapp.com/send?phone=${phone}&text=${encodeURIComponent(message)}`;
                         window.open(url, "_blank");
